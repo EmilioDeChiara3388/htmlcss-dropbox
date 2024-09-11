@@ -177,7 +177,7 @@ h1{
 
 .price{
     border: 2px dashed black;
-    height: 500px;
+    height: 800px;
     
     padding: 1rem;
     border: 1px solid lightgray;
@@ -190,7 +190,7 @@ h1{
     border: 1px solid lightgray;
 }
 
-#type-pro, #type-adv{
+#type-pro, #type-adv, #type-ent{
     margin-top: 2rem;
 }
 
