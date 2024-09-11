@@ -11,6 +11,7 @@ img{
 
 :root{
     --c-a-t: #0061ff;
+    --hero: #b4d0e7;
 }
 
 /* #endregion General */
@@ -19,6 +20,16 @@ img{
 .container-d-flex{
     display: flex;
     flex-wrap: wrap;
+}
+
+.container{
+    width: 65%;
+    margin: auto;
+}
+
+#debug .container{
+    background-color: yellow;
+    min-height: 300px;
 }
 
 .col-4{
@@ -63,26 +74,10 @@ img{
     color: black;
 }
 
-.active{
-    text-decoration: underline;
-    padding: 0 1rem;
-    display: none;
-}
-
-/* #r-menu-active > a{
+.not-active:hover .not-active{
     text-decoration: line-through;
-    padding: 0 1rem;
-    display: none; */
-/* } */
-
-#l-menu:hover .active{
-    display: inline-block;
 }
 
-.l-menu:hover .not-active{
-    display: none;
-    /* background-color: red; */
-}
 
 
 
@@ -95,21 +90,21 @@ img{
     padding: 0.5rem;
 }
 
-#start-active{
+/* #start-active{
     display: none;
     background-color: #60137edb;
     color: white;
     border-style: none;
     padding: 0.5rem;
-}
-
-#c-t-a:hover #start-active{
-    display: inline-block;
-}
+} */
 
 #c-t-a:hover #start{
-    display: none;
+    background-color: #60137edb;
 }
+
+/* #c-t-a:hover #start{
+    display: none;
+} */
 
 /* #endregion Button */
 
@@ -118,3 +113,22 @@ img{
     height: 50px;
 }
 /* #endregion Header */
+
+/* #region Main */
+
+/* #region hero-image */
+#hero-image{
+    background-color: var(--hero);
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    padding: 5rem 0;
+
+}
+/* #endregion hero-image */
+
+
+/* #endregion Main */
+
