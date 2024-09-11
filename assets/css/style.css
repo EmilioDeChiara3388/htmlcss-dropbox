@@ -9,4 +9,112 @@ img{
     max-width: 100%;
 }
 
+:root{
+    --c-a-t: #0061ff;
+}
+
 /* #endregion General */
+
+/* #region Utilities */
+.container-d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4{
+    width: calc((100% / 12) * 4);
+}
+
+.col-8{
+    width: calc((100% / 12) * 8);
+}
+
+.col-12{
+    width: 100%;
+}
+/* #endregion Utilities */
+
+/* #region Header */
+.left, .right{
+    width: 50%;
+    align-items: center;
+}
+
+.left{
+    justify-content: flex-start;
+    padding-left: 1rem;
+}
+
+.right{
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+#l-menu > a{
+    padding: 0 1rem;
+}
+
+#r-menu > a{
+    padding: 0 1rem;
+}
+
+.not-active{
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    text-decoration: underline;
+    padding: 0 1rem;
+    display: none;
+}
+
+/* #r-menu-active > a{
+    text-decoration: line-through;
+    padding: 0 1rem;
+    display: none; */
+/* } */
+
+#l-menu:hover .active{
+    display: inline-block;
+}
+
+.l-menu:hover .not-active{
+    display: none;
+    /* background-color: red; */
+}
+
+
+
+
+/* #region Button */
+#start{
+    background-color: #0061ff;
+    color: white;
+    border-style: none;
+    padding: 0.5rem;
+}
+
+#start-active{
+    display: none;
+    background-color: #60137edb;
+    color: white;
+    border-style: none;
+    padding: 0.5rem;
+}
+
+#c-t-a:hover #start-active{
+    display: inline-block;
+}
+
+#c-t-a:hover #start{
+    display: none;
+}
+
+/* #endregion Button */
+
+#debug, .left, .right{
+    border: 2px dashed;
+    height: 50px;
+}
+/* #endregion Header */
