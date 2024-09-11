@@ -32,6 +32,10 @@ img{
     min-height: 300px;
 } */
 
+.col-3{
+    width: calc((100% / 12) * 3);
+}
+
 .col-4{
     width: calc((100% / 12) * 4);
 }
@@ -124,11 +128,11 @@ h1{
     padding-top: 5rem;
 }
 
-.row{
+.row-hero-image{
     padding: 2.5rem;
 }
 
-#free-try{
+.free-try{
     background-color: #0061ff;
     color: white;
     border-style: none;
@@ -145,6 +149,83 @@ h1{
     margin-top: 1rem;
 }
 /* #endregion hero-image */
+
+/* #region Plans */
+#plans{
+    margin-top: 5rem;
+    height: 500px;
+}
+
+#business-plan{
+    font-size: 2rem;
+}
+
+#pay-month{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#pay-year{
+    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.row-plans{
+    display: flex;
+}
+
+.price{
+    border: 2px dashed black;
+    height: 500px;
+    
+    padding: 1rem;
+    border: 1px solid lightgray;
+    margin: 0.5rem;
+    
+}
+
+.type{
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+#type-pro{
+    margin-top: 2rem;
+}
+
+.cost{
+    margin-top: 1rem;
+}
+
+.frequency{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: gray;
+}
+
+.user, .space, .share, .buy-now{
+    margin-top: 1rem;
+}
+
+hr{
+    border: 1px solid gray;
+    width: 20%;
+    margin-top: 2rem;
+}
+
+.highlights{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feat{
+    margin: 1rem 0;
+}
+
+
+/* #endregion Plans */
+
 
 
 /* #endregion Main */
