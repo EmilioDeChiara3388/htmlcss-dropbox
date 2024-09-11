@@ -27,10 +27,10 @@ img{
     margin: auto;
 }
 
-#debug .container{
+/* #debug .container{
     background-color: yellow;
     min-height: 300px;
-}
+} */
 
 .col-4{
     width: calc((100% / 12) * 4);
@@ -74,13 +74,9 @@ img{
     color: black;
 }
 
-.not-active:hover .not-active{
+.not-active:hover{
     text-decoration: line-through;
 }
-
-
-
-
 
 /* #region Button */
 #start{
@@ -119,13 +115,34 @@ img{
 /* #region hero-image */
 #hero-image{
     background-color: var(--hero);
+    height: 590px;
 }
 
 h1{
     text-align: center;
     font-size: 5rem;
-    padding: 5rem 0;
+    padding-top: 5rem;
+}
 
+.row{
+    padding: 2.5rem;
+}
+
+#free-try{
+    background-color: #0061ff;
+    color: white;
+    border-style: none;
+    padding: 0.5em;
+    margin-top: 2rem;
+}
+
+#canc{
+    margin-top: 2rem;
+}
+
+.fa-arrow-down{
+    font-size: 2rem;
+    margin-top: 1rem;
 }
 /* #endregion hero-image */
 
