@@ -17,20 +17,28 @@ img{
 /* #endregion General */
 
 /* #region Utilities */
-.container-d-flex{
+.d-flex{
     display: flex;
     flex-wrap: wrap;
 }
 
 .container{
-    width: 65%;
+    width: 70%;
     margin: auto;
+    border: 2px dashed;
 }
 
-/* #debug .container{
-    background-color: yellow;
-    min-height: 300px;
-} */
+.container-sm{
+    width: 60%;
+    margin: auto;
+    border: 2px dashed;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 .col-3{
     width: calc((100% / 12) * 3);
@@ -44,6 +52,10 @@ img{
     width: calc((100% / 12) * 8);
 }
 
+.col-9{
+    width: calc((100% / 12) * 9);
+}
+
 .col-12{
     width: 100%;
 }
@@ -53,16 +65,16 @@ img{
 .left, .right{
     width: 50%;
     align-items: center;
+    padding-right: 1rem;
+    line-height: 3rem;
 }
 
 .left{
     justify-content: flex-start;
-    padding-left: 1rem;
 }
 
 .right{
     justify-content: flex-end;
-    padding-right: 1rem;
 }
 
 #l-menu > a{
@@ -108,10 +120,6 @@ img{
 
 /* #endregion Button */
 
-#debug, .left, .right{
-    border: 2px dashed;
-    height: 50px;
-}
 /* #endregion Header */
 
 /* #region Main */
@@ -119,17 +127,20 @@ img{
 /* #region hero-image */
 #hero-image{
     background-color: var(--hero);
-    height: 590px;
+    height: 630px;
 }
 
-h1{
+.container > h1{
     text-align: center;
     font-size: 5rem;
     padding-top: 5rem;
+    padding-left: 4rem;
 }
 
 .row-hero-image{
-    padding: 2.5rem;
+    padding-top: 2rem;
+    padding-left: 7rem;
+    border: 2px dashed;
 }
 
 .free-try{
@@ -152,13 +163,22 @@ h1{
 
 /* #region Plans */
 #plans{
-    margin-top: 5rem;
-    height: 500px;
+    display: flex;
+    margin-top: 7rem;
+/*     height: 500px;
+ */    padding-left: 10rem;
+ border: 2px dashed red;
+
+}
+
+.different-plans{
+    border: 2px dashed green;
 }
 
 #business-plan{
     font-size: 2rem;
-}
+/*     padding: 5rem;
+ */}
 
 #pay-month{
     margin-top: 3rem;
@@ -172,22 +192,30 @@ h1{
 }
 
 .row-plans{
-    display: flex;
+    justify-content: flex-start;
 }
 
 .price{
-    border: 2px dashed black;
-    height: 800px;
+    border: 2px dashed blue;
+    /* height: 800px; */
+    /* padding: 1rem; */
+/*     border: 1px solid lightgray;
+ */    margin-right: 2rem;
+ /* padding-left: 1rem; */
     
-    padding: 1rem;
-    border: 1px solid lightgray;
-    margin: 0.5rem;
-    
+}
+
+.layout-prices{
+    padding-left: 1rem;
 }
 
 .type{
     text-align: center;
     border: 1px solid lightgray;
+}
+
+.type > h3{
+    font-weight: lighter;
 }
 
 #type-pro, #type-adv, #type-ent{
@@ -219,6 +247,11 @@ hr{
     margin-bottom: 1rem;
 }
 
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+
 .feat{
     margin: 1rem 0;
 }
@@ -226,6 +259,19 @@ hr{
 
 /* #endregion Plans */
 
+/* #region Partners */
+#find{
+    background-color: white;
+    color: black;
+    border-color: black;
+    padding: 0.5em;
+    margin-top: 2rem;
+}
+
+.text-partner{
+    padding: 4rem 2rem;
+}
+/* #endregion Partners */
 
 
 /* #endregion Main */
