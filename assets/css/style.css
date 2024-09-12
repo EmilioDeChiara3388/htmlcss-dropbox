@@ -29,11 +29,6 @@ img{
 /* #endregion General */
 
 /* #region Utilities */
-.d-flex{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .container{
     width: 70%;
     margin: auto;
@@ -43,13 +38,12 @@ img{
 .container-sm{
     width: 60%;
     margin: auto;
-    border: 2px dashed;
+    /* border: 2px dashed; */
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
 }
 
 .col-2{
@@ -89,7 +83,6 @@ img{
 /* #region Header */
 .left, .right{
     width: 50%;
-    align-items: center;
     padding-right: 1rem;
     line-height: 3rem;
 }
@@ -108,6 +101,10 @@ img{
 
 #r-menu > a{
     padding: 0 1rem;
+}
+
+#logo{
+    padding: 0.25rem;
 }
 
 .not-active{
@@ -188,63 +185,41 @@ img{
 
 /* #region Plans */
 #plans{
-    display: flex;
-    margin-top: 7rem;
-/*     height: 500px;
- */    padding-left: 10rem;
- border: 2px dashed red;
+    margin-top: 8rem;
+    border: 2px dashed red;
 
-}
-
-.different-plans{
-    border: 2px dashed green;
 }
 
 #business-plan{
     font-size: 2rem;
-/*     padding: 5rem;
- */}
+}
 
-#pay-month{
+#pay-month, #pay-year{
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
 #pay-year{
     margin-left: 4rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
 }
 
-.row-plans{
-    justify-content: flex-start;
-}
-
-.price{
-    border: 2px dashed blue;
-    /* height: 800px; */
-    /* padding: 1rem; */
-/*     border: 1px solid lightgray;
- */    margin-right: 2rem;
- /* padding-left: 1rem; */
-    
-}
-
-.layout-prices{
-    padding-left: 1rem;
+#prices-table{
+    justify-content: space-between;
 }
 
 .type{
     text-align: center;
     border: 1px solid lightgray;
-}
-
-.type > h3{
     font-weight: lighter;
 }
 
 #type-pro, #type-adv, #type-ent{
     margin-top: 2rem;
+}
+
+.details{
+    padding: 1rem;
+    border: 1px solid lightgray;
 }
 
 .cost{
@@ -261,9 +236,13 @@ img{
     margin-top: 1rem;
 }
 
+.buy-now a{
+    color: blue;
+}
+
 hr{
     border: 1px solid gray;
-    width: 20%;
+    width: 25%;
     margin-top: 2rem;
 }
 
@@ -272,14 +251,43 @@ hr{
     margin-bottom: 1rem;
 }
 
-.features{
-    display: flex;
-    justify-content: space-between;
-}
-
 .feat{
     margin: 1rem 0;
 }
+
+#team-ent{
+    margin-top:2rem
+}
+
+#details-enterprise{
+    padding: 1rem;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
+}
+
+#contact{
+    margin-bottom: 2rem;
+}
+
+#button-office{
+    padding-left: 2rem;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* #endregion Plans */
@@ -463,6 +471,16 @@ hr{
     margin-left: 17.5rem;
 }
 /* #endregion Bring */
+
+/* #region FAQ */
+#faq-title{
+    margin-top: 6rem;
+}
+
+details summary::after{
+    content: "🡒";
+}
+/* #endregion FAQ */
 
 /* #endregion Main */
 
