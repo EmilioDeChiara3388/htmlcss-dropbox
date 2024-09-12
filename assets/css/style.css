@@ -260,6 +260,9 @@ hr{
 /* #endregion Plans */
 
 /* #region Partners */
+#partners{
+    margin-top: 10rem;
+}
 #find{
     background-color: white;
     color: black;
@@ -273,6 +276,20 @@ hr{
 }
 /* #endregion Partners */
 
+/* #region Operation */
+#operations{
+    margin-top: 10rem;
+}
+
+.text-operation{
+    margin: 2rem 0;
+}
+
+#operation-title{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+/* #endregion Operation */
 
 /* #endregion Main */
 
