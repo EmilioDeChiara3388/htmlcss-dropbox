@@ -9,23 +9,6 @@ img{
     max-width: 100%;
 }
 
-:root{
-    --c-a-t: #0061ff;
-    --hero: #b4d0e7;
-    --designit: #a2d39b;
-    --desi-bg: #d1e9cd;
-    --asu: #61082b;
-    --florida: #0093ce;
-    --topps: #ff1c1c;
-    --bicycle: #d5001f;
-    --heart: #b4d0e7;
-    --planet: #0d2481;
-    --channel: #ffd830;
-    --central-block: #f5f5f5;
-    --bring-bg: #b4d0e7;
-    --bring-title-col: #641538;
-}
-
 /* #endregion General */
 
 /* #region Utilities */
@@ -45,6 +28,24 @@ img{
     display: flex;
     flex-wrap: wrap;
 }
+
+:root{
+    --c-a-t: #0061ff;
+    --hero: #b4d0e7;
+    --designit: #a2d39b;
+    --desi-bg: #d1e9cd;
+    --asu: #61082b;
+    --florida: #0093ce;
+    --topps: #ff1c1c;
+    --bicycle: #d5001f;
+    --heart: #b4d0e7;
+    --planet: #0d2481;
+    --channel: #ffd830;
+    --central-block: #f5f5f5;
+    --bring-bg: #b4d0e7;
+    --bring-title-col: #641538;
+}
+
 
 .col-2{
     width: calc((100% / 12) * 2);
@@ -474,12 +475,31 @@ hr{
 
 /* #region FAQ */
 #faq-title{
+    font-size: 2rem;
     margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+#faq{
+    margin-bottom: 6rem;
+}
+
+summary{
+    font-weight: bold;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 2rem 0;
+
+}
+
+details > summary {
+    list-style-type: none;
 }
 
 details summary::after{
-    content: "🡒";
+    content: "˅";
 }
+
 /* #endregion FAQ */
 
 /* #endregion Main */
