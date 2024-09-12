@@ -331,7 +331,11 @@ hr{
 }
 
 .logos-pic{
-    width: 20%;
+    width: 50%;
+    position: absolute;
+    top:40%;
+    left: 25%;
+    filter: invert(100%);
 }
 
 .l-block{
@@ -349,6 +353,7 @@ hr{
 }
 
 #designit{
+    position: relative;
     width: 50%;
     aspect-ratio: 1;
     background-color: var(--designit);
@@ -356,25 +361,28 @@ hr{
 }
 
 #asu{
+    position: relative;
     width: 50%;
     aspect-ratio: 1;
     background-color: var(--asu);
 }
 
 #florida{
+    position: relative;
     width: 50%;
     aspect-ratio: 1;
     background-color: var(--florida);
 }
 
 #topps{
+    position: relative;
     width: 50%;
     aspect-ratio: 1;
     background-color: var(--topps);
 }
 
 .center-block{
-    width: 30%;
+    width: 34%;
     aspect-ratio: 1;
     background-color: var(--central-block);
     padding: 2rem;
@@ -394,24 +402,28 @@ hr{
 }
 
 #bicycle{
+    position: relative;
     width: 50%;
     aspect-ratio: 1;
     background-color: var(--bicycle);
 }
 
 #hearts{
+    position: relative;
     width: 50%;
     aspect-ratio: 1;
     background-color: var(--heart);
 }
 
 #planet{
+    position: relative;
     width: 50%;
     aspect-ratio: 1;
     background-color: var(--planet);
 }
 
 #channel{
+    position: relative;
     width: 50%;
     aspect-ratio: 1;
     background-color: var(--channel);
