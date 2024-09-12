@@ -15,7 +15,7 @@ img{
 .container{
     width: 70%;
     margin: auto;
-    border: 2px dashed;
+    /* border: 2px dashed; */
 }
 
 .container-sm{
@@ -49,7 +49,7 @@ img{
 
 .col-2{
     width: calc((100% / 12) * 2);
-    border: 2px dashed;
+    /* border: 2px dashed; */
 
 }
 
@@ -60,12 +60,16 @@ img{
 
 .col-4{
     width: calc((100% / 12) * 4);
-    border: 2px dashed;
+    /* border: 2px dashed; */
+}
+
+.col-5{
+    width: 20%
 }
 
 .col-6{
     width: 50%;
-    border: 2px dashed;
+    /* border: 2px dashed; */
 }
 
 .col-8{
@@ -163,7 +167,7 @@ img{
 .row-hero-image{
     padding-top: 2rem;
     padding-left: 7rem;
-    border: 2px dashed;
+    /* border: 2px dashed; */
 }
 
 .free-try{
@@ -187,7 +191,7 @@ img{
 /* #region Plans */
 #plans{
     margin-top: 8rem;
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
 
 }
 
@@ -503,4 +507,33 @@ details summary::after{
 /* #endregion FAQ */
 
 /* #endregion Main */
+
+/* #region Footer */
+footer{
+    color: white;
+    background-color: black;
+}
+
+.info{
+    margin-bottom: 5rem;
+}
+
+footer h4{
+    margin-top: 5rem;
+}
+
+ul{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 2rem;
+}
+
+/* #endregion Footer */
+
 
