@@ -291,5 +291,21 @@ hr{
 }
 /* #endregion Operation */
 
+/* #region Team */
+#team{
+    margin-top: 10rem;
+}
+
+#team-title{
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+#discover{
+    color: blue;
+}
+/* #endregion Team */
+
+
 /* #endregion Main */
 
