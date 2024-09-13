@@ -516,6 +516,7 @@ details > summary {
 
 details summary::after{
     content: "˅";
+    margin-left: 20rem;
 }
 
 /* #endregion FAQ */
