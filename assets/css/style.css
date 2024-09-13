@@ -246,6 +246,17 @@ header{
     margin-top: 1rem;
 }
 
+.items-list-cards{
+    display: flex;
+    align-items:flex-start;
+    margin-bottom: 1rem;
+}
+
+.text-list{
+    display: flex;
+    margin-left: 0.5rem;
+}
+
 .free{
     margin-top: 2rem;
 }
