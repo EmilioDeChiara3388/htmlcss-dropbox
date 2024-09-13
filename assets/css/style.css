@@ -216,6 +216,7 @@ header{
 
 .type{
     text-align: center;
+    padding: 0.25rem;
     border: 1px solid lightgray;
     font-weight: lighter;
 }
@@ -227,6 +228,8 @@ header{
 .details{
     padding: 1rem;
     border: 1px solid lightgray;
+    height: 800px;
+    margin-bottom: 2rem;
 }
 
 .cost{
@@ -552,5 +555,3 @@ li > a{
 }
 
 /* #endregion Footer */
-
-
