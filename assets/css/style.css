@@ -83,6 +83,19 @@ img{
 .col-12{
     width: 100%;
 }
+
+.free-try{
+    text-decoration: none;
+    background-color: #0061ff;
+    color: white;
+    border-style: none;
+    padding: 0.5em;
+    margin-top: 2rem;
+}
+
+.free-try:hover{
+    background-color: #60137edb;
+}
 /* #endregion Utilities */
 
 /* #region Header */
@@ -136,23 +149,12 @@ header{
     color: white;
     border-style: none;
     padding: 0.5rem;
+    text-decoration: none;
 }
-
-/* #start-active{
-    display: none;
-    background-color: #60137edb;
-    color: white;
-    border-style: none;
-    padding: 0.5rem;
-} */
 
 #c-t-a:hover #start{
     background-color: #60137edb;
 }
-
-/* #c-t-a:hover #start{
-    display: none;
-} */
 
 /* #endregion Button */
 
@@ -183,13 +185,7 @@ header{
     /* border: 2px dashed; */
 }
 
-.free-try{
-    background-color: #0061ff;
-    color: white;
-    border-style: none;
-    padding: 0.5em;
-    margin-top: 2rem;
-}
+
 
 #canc{
     margin-top: 2rem;
@@ -204,8 +200,6 @@ header{
 /* #region Plans */
 #plans{
     margin-top: 8rem;
-    /* border: 2px dashed red; */
-
 }
 
 #business-plan{
@@ -254,6 +248,14 @@ header{
     margin-top: 1rem;
 }
 
+.free{
+    margin-top: 2rem;
+}
+
+#free-1, #free-2, #free-3{
+    padding: 0.25rem;
+}
+
 .buy-now a{
     color: blue;
 }
@@ -281,7 +283,6 @@ hr{
     padding: 1rem;
     border-left: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
-    /* border: 1px solid lightgray; */
 }
 
 #contact{
@@ -289,24 +290,11 @@ hr{
 }
 
 #button-office{
+    padding-top: 2rem;
     padding-left: 2rem;
     border-right: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* #endregion Plans */
 
@@ -315,12 +303,22 @@ hr{
     margin-top: 10rem;
 }
 
-#find{
-    background-color: white;
-    color: black;
-    border-color: black;
+#find-partner{
     padding: 0.5em;
     margin-top: 2rem;
+}
+
+#find{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+#find:hover{
+    color: white;
+    background-color: black;
 }
 
 .text-partner{
@@ -479,14 +477,20 @@ hr{
 #bring-title{
     line-height: 2rem;
     color: var(--bring-title-col);
+    text-align: center;
 }
 
 #free-button{
+    text-decoration: none;
     background-color: white;
     color: black;
     padding: 0.5em;
-    border-style: none;
-    margin-left: 17.5rem;
+    margin-left: 10rem;
+}
+
+#free-button:hover{
+    background-color: black;
+    color: white;
 }
 /* #endregion Bring */
 
